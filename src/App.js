@@ -4,6 +4,9 @@ import trustimage from './assets/Trust.png'
 import authenticityImage from './assets/Authenticity.png'
 import FunImage from './assets/FunAndEngaging.png'
 import ImpactImage from './assets/Impact.png'
+import Founder1Image from './assets/about-us-founding-team-01.png'
+import Founder2Image from './assets/about-us-founding-team-02.png'
+
 
 import './App.css';
 
@@ -78,6 +81,38 @@ function App() {
         </div>
 
       </div>
+
+      {/** Our Story Section */}
+      <div className='Sub-Container Sub-Container3'>
+        <p className='bodyTitle' >
+          Our Story
+        </p>
+
+        <div className='Our-Story-Container'>
+          <div className='FounderImageContainer'>
+            <img src={Founder1Image} className='FounderImage'/>
+            <img src={Founder2Image} className='FounderImage'/>
+          </div>
+          
+          <p className='bodytext'>
+            We started Ecoyaan after watching an episode of “Our Planet II”, where we saw the devastating impact of plastic pollution and climate change on the albatross birds. That moment ignited our mission.
+            <br/>
+            <br/>
+            Our research suggests that many Indians understand global warming, yet access to sustainable practices and products remains limited. We also noticed that there is a lack of support for eco-friendly businesses.
+            <br/>
+            <br/>
+            We created Ecoyaan to connect consumers, businesses, and sustainability experts. We want to make it easy and convenient for people to access eco-friendly products and services, learn and share best practices, and support sustainability initiatives.
+            <br/>
+            <br/>
+            As founders, we are not perfect, but we are passionate. We believe that every small step matters. Join us and be a part of the Ecoyaan community — together, we’ll make a difference.
+            <br/>
+            <br/>
+            Connect with the founders on LinkedIn here: Abhishek Rao   Sarwanjeet Singh 
+          </p>
+        </div>
+        
+      </div>
+
     </div>
   );
 }
