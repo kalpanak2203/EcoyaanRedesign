@@ -4,6 +4,17 @@
   border-width: 2;
 }
 
+.Sub-Container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.Sub-Container1 {
+  background-color: rgb(240, 182, 182);
+}
+.Sub-Container2 {
+  background-color: rgb(168, 168, 245);
+}
+
 .App-logo {
   width: 180;
   height: 20;
@@ -14,21 +25,20 @@
   display: flex;
   flex-direction: row;
   margin-top: 30px;
+  
 }
 .ValuesCardContainerReverse {
-  display: flex;
   flex-direction: row-reverse;
-  margin-top: 30px;
 }
 
 .ValuesCardDescriptionContainer {
   display: flex;
   flex-direction: column;
   align-items: start;
+  width: 70%;
 }
 .ValuesCardDescriptionContainerReverse {
-  display: flex;
-  flex-direction: column;
+  
   align-items: end;
 }
 
@@ -39,7 +49,9 @@
 .ValuesCardImage {
   width: 230px;
   border-radius: 50px;
-  
+}
+.ValuesCardImage:hover {
+  width: 260px;
 }
 
 .bodyTitle {
@@ -51,8 +63,7 @@
 
 .bodytext {
   width: 120;
-  padding-left: 70px;
-  padding-right: 70px;
+  
   line-height: 28px;
   font-size: 20px;
   font-weight: 400;

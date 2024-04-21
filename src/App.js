@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={handImage} className="App-logo" alt="logo" />
       </header>
-      <div> 
+      <div className='Sub-Container Sub-Container1'> 
         <p className='bodyTitle'>
           About Us!
         </p>
@@ -36,7 +36,7 @@ function App() {
       </div>
 
       {/** Values Section */}
-      <div>
+      <div className='Sub-Container Sub-Container2'>
         <p className='bodyTitle' >
           Our Values
         </p>
@@ -51,9 +51,9 @@ function App() {
         </div>
 
         {/** Values Card 2 */}
-        <div className='ValuesCardContainerReverse'>
+        <div className='ValuesCardContainer ValuesCardContainerReverse'>
           <img src={authenticityImage} className="ValuesCardImage" alt="logo" />
-          <div className='ValuesCardDescriptionContainerReverse'>
+          <div className='ValuesCardDescriptionContainer ValuesCardDescriptionContainerReverse'>
             <p className='ValueCardTitle'>Authenticity</p>
             <p>We are genuine in our mission to promote sustainability and environmental awareness. An authentic community of eco-conscious people can inspire each other on the journey towards sustainability.</p>
           </div>
@@ -69,9 +69,9 @@ function App() {
         </div>
 
         {/** Values Card 4 */}
-        <div className='ValuesCardContainerReverse'>
+        <div className='ValuesCardContainer ValuesCardContainerReverse'>
           <img src={FunImage} className="ValuesCardImage" alt="logo" />
-          <div className='ValuesCardDescriptionContainerReverse'>
+          <div className='ValuesCardDescriptionContainer ValuesCardDescriptionContainerReverse'>
             <p className='ValueCardTitle'>Fun and Engaging</p>
             <p>Moving towards a sustainable lifestyle and the constant news around climate change can be stressful. We aim to inject fun and creativity into everything we do, from designing our products to providing services.</p>
           </div>
