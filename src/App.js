@@ -13,11 +13,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <ul class="topnav">
+        <li><a href="./Home">Home</a></li>
+        <li><a href="#news">Sell On Ecoyaan</a></li>
+        <li><a href="#contact">Careers</a></li>
+        <li class="right"><a class="active" href="#App">About Us</a></li>
+      </ul>
       <header className="App-header">
         <img src={handImage} className="App-logo" alt="logo" />
       </header>
       <div className='Sub-Container Sub-Container1'> 
-        <p className='bodyTitle'>
+        <p className='bodyTitle bodyTitle1'>
           About Us!
         </p>
         <p className='bodytext'>
@@ -40,7 +46,7 @@ function App() {
 
       {/** Values Section */}
       <div className='Sub-Container Sub-Container2'>
-        <p className='bodyTitle' >
+        <p className='bodyTitle bodyTitle2' >
           Our Values
         </p>
 
@@ -84,7 +90,7 @@ function App() {
 
       {/** Our Story Section */}
       <div className='Sub-Container Sub-Container3'>
-        <p className='bodyTitle' >
+        <p className='bodyTitle bodyTitle3' >
           Our Story
         </p>
 
