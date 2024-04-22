@@ -9,17 +9,17 @@
   margin: 0px 0px -45px 0px
 }
 .Sub-Container1 {
-  background-color: rgb(253, 202, 107);
+  background-color: rgb(253, 239, 214);
   height: auto;
   padding-bottom: 60px;
 }
 .Sub-Container2 {
-  background-color: rgb(236, 161, 138);
+  background-color: rgb(252, 232, 226);
   height: auto;
   padding-bottom: 100px;
 }
 .Sub-Container3 {
-  background-color: rgb(186, 223, 102);
+  background-color: rgb(247, 254, 232);
   height: auto;
 }
 
@@ -44,22 +44,29 @@
   flex-direction: column;
   align-items: start;
   width: 70%;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  font-size: 20px;
 }
 .ValuesCardDescriptionContainerReverse {
   
-  align-items: end;
+  align-items: start;
+  text-align: left;
+  align-self:flex-end;
 }
 
 .ValueCardTitle {
   font-weight: bold;
+  font-size: 27;
 }
 
 .ValuesCardImage {
-  width: 230px;
-  border-radius: 50px;
+  width: 400px;
+  border-radius: 20px;
 }
 .ValuesCardImage:hover {
-  width: 260px;
+  width: 420px;
 }
 
 .bodyTitle {
@@ -88,6 +95,7 @@
   font-weight: 400;
   letter-spacing: .5px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .bodylist {
