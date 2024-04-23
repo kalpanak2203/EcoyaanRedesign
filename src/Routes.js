@@ -11,6 +11,8 @@ const RoutesPath = () => {
               </Route>
               <Route path='/' element={<App/>}>
               </Route>
+              <Route path='/AboutUs' element={<App/>}>
+              </Route>
           </Routes>
       </div>
   );

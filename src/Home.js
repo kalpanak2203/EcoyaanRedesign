@@ -5,20 +5,23 @@ import homeImage1 from './assets/carousel-1.png'
 import homeImage2 from './assets/carousel-2.png'
 import homeImage3 from './assets/carousel-3.png'
 import card2Video from './assets/ProductCuration.mp4'
+import {useNavigate} from 'react-router-dom'
+
 
 
 
 import './Home.css';
 
 function Home() {
+    const navigate = useNavigate()
   return (
     <div className="App">
         
     <ul class="topnav">
-        <li><a href="./Home">Home</a></li>
-        <li><a href="#news">Sell On Ecoyaan</a></li>
-        <li><a href="#contact">Careers</a></li>
-        <li class="right"><a class="active" href="#App">About Us</a></li>
+        <li><a class="active" href="/Home">Home</a></li>
+        <li><a >Sell On Ecoyaan</a></li>
+        <li><a >Careers</a></li>
+        <li class="right"><a onClick={()=>navigate(`/AboutUs`)}>About Us</a></li>
     </ul>
 
     <div class="logoContainer">
@@ -33,7 +36,7 @@ function Home() {
             </div>
             <div class="category">
                 <img className='FeatureImage' src={homeImage2} alt="Fashion"/>
-                <button className='ImageName'>About Us</button>
+                <button onClick={()=>navigate(`/AboutUs`)} className='ImageName'>About Us</button>
             </div>
             <div class="category">
                 <img className='FeatureImage' src={homeImage3} alt="Personal Care"/>

@@ -6,18 +6,21 @@ import FunImage from './assets/FunAndEngaging.png'
 import ImpactImage from './assets/Impact.png'
 import Founder1Image from './assets/about-us-founding-team-01.png'
 import Founder2Image from './assets/about-us-founding-team-02.png'
+import { useNavigate } from 'react-router-dom'
+
 
 
 import './App.css';
 
 function App() {
+  const navigate = useNavigate()
   return (
     <div className="App">
       <ul class="topnav">
-        <li><a href="./Home">Home</a></li>
-        <li><a href="#news">Sell On Ecoyaan</a></li>
-        <li><a href="#contact">Careers</a></li>
-        <li class="right"><a class="active" href="#App">About Us</a></li>
+        <li><a  onClick={()=>navigate(`/Home`)}>Home</a></li>
+        <li><a >Sell On Ecoyaan</a></li>
+        <li><a >Careers</a></li>
+        <li class="right"><a class="active" onClick={()=>navigate(`/AboutUs`)}>About Us</a></li>
       </ul>
       <header className="App-header">
         <img src={handImage} className="App-logo" alt="logo" />
