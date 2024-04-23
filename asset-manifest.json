@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EcoyaanRedesign/static/css/main.60d40ed1.css",
+    "main.js": "/EcoyaanRedesign/static/js/main.b7da6039.js",
+    "static/js/453.1b8d4295.chunk.js": "/EcoyaanRedesign/static/js/453.1b8d4295.chunk.js",
+    "static/media/ProductCuration.mp4": "/EcoyaanRedesign/static/media/ProductCuration.fde43641e9823fe1cfd5.mp4",
+    "static/media/carousel-3.png": "/EcoyaanRedesign/static/media/carousel-3.5b008b52e29efebe97c1.png",
+    "static/media/carousel-1.png": "/EcoyaanRedesign/static/media/carousel-1.3b8724ba62590b1cb20b.png",
+    "static/media/about-us-sustainable-lifestyle-partner.png": "/EcoyaanRedesign/static/media/about-us-sustainable-lifestyle-partner.bee6f2e5819aaa727520.png",
+    "static/media/Trust.png": "/EcoyaanRedesign/static/media/Trust.9c58b1e73edd135b2d12.png",
+    "static/media/carousel-2.png": "/EcoyaanRedesign/static/media/carousel-2.e812fe7ad118965c003d.png",
+    "static/media/FunAndEngaging.png": "/EcoyaanRedesign/static/media/FunAndEngaging.a15395160191b47983a5.png",
+    "static/media/about-us-founding-team-02.png": "/EcoyaanRedesign/static/media/about-us-founding-team-02.477514845494d152a317.png",
+    "static/media/Authenticity.png": "/EcoyaanRedesign/static/media/Authenticity.7a857478509794e9a4d6.png",
+    "static/media/about-us-founding-team-01.png": "/EcoyaanRedesign/static/media/about-us-founding-team-01.deb2511e232355337d9e.png",
+    "static/media/Impact.png": "/EcoyaanRedesign/static/media/Impact.fe4cadb821eea5281df0.png",
+    "static/media/OurStory4.png": "/EcoyaanRedesign/static/media/OurStory4.3428164590fd979c638a.png",
+    "static/media/logo.jpg": "/EcoyaanRedesign/static/media/logo.89a86e551f136c08ef47.jpg",
+    "static/media/logo.svg": "/EcoyaanRedesign/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EcoyaanRedesign/index.html",
+    "main.60d40ed1.css.map": "/EcoyaanRedesign/static/css/main.60d40ed1.css.map",
+    "main.b7da6039.js.map": "/EcoyaanRedesign/static/js/main.b7da6039.js.map",
+    "453.1b8d4295.chunk.js.map": "/EcoyaanRedesign/static/js/453.1b8d4295.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60d40ed1.css",
+    "static/js/main.b7da6039.js"
+  ]
+}
