@@ -25,9 +25,6 @@ function Home() {
         <img className='LogoStyle' src={logoImage} alt="ecoYaan Logo"/>
     </div>
     
-
-    
-
     <section class="categories">
         <div class="container">
             <div class="category">
@@ -42,7 +39,6 @@ function Home() {
                 <img className='FeatureImage' src={homeImage3} alt="Personal Care"/>
                 <button className='ImageName'>Get In Touch</button>
             </div>
-
 
             <div className='ValuesCardContainer'>
                 <img src={product1} className="ValuesCardImage" alt="Loading" />
@@ -75,14 +71,60 @@ function Home() {
         </div>
     </section>
     <footer>
+        <div class="text-gray-500 text-md flex flex-col justify-start items-start">
+            <p class="text-xl text-black font-semibold mb-2">Company</p>
+            
+
+
+        </div>
         <div class="container">
-            <p>&copy; 2024 ecoYaan. All Rights Reserved.</p>
+            <ul class="links">
+                <a>About us</a>
+                <a>Sell on Ecoyaan</a>
+                <a>Careers</a>
+            </ul>
             <nav>
-                <a href="#">Terms of Service</a>
+                <a href="#">Registered Address: <br/>
+                    <p>vastores, <br/>
+                    Ashoknagar(MR), <br/>
+                    Mangalore,<br/>
+                    Dakshina Kannada- 575006, <br/>
+                    Karnataka, India
+                    </p>
+                </a>
+                <a href="#">Legal Business Name:
+                <p>vastores, <br/>
+                Kindkarma E-Retail Private Limited, <br/>
+                    <br/>
+                    CIN: U47912KA2023PTC182592, <br/>
+                    Call us On - +91 9980490777
+                    </p>
+                </a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">FAQ</a>
+                <a href="#">Follow us on<br/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    </meta>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+                    <style></style>
+                </a>
             </nav>
+            <p>&copy; 2024 EcoYaan. <br/> All Rights Reserved.</p>
+
+            <div class="footer--top row space-between">
+            <div class="clearfix text-formatted field body text-with-summary">
+                <div class="footer--copyright row align-center">
+                    <div class="footer--logo">
+                        <a href="" title="© 2023 - 2024, Ecoyaan TM"></a>
+                    </div>
+                </div>
+            </div>
         </div>
+        </div>
+    </footer>
+
+    <footer>
+        
     </footer>
 
 

@@ -119,6 +119,17 @@ function App() {
         
       </div>
 
+      <footer>
+        <div class="container">
+            <p>&copy; 2024 ecoYaan. All Rights Reserved.</p>
+            <nav>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">FAQ</a>
+            </nav>
+        </div>
+    </footer>
+
     </div>
   );
 }
